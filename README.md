@@ -40,7 +40,7 @@ Lista das fontes abertas (texto e PDF) selecionadas, analisadas e adicionadas ao
 | 1 | **NIST SP 800-145 - The NIST Definition of Cloud Computing** | PDF | [nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-145.pdf](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-145.pdf) | Fonte oficial que define computação em nuvem, as 5 características essenciais, 3 modelos de serviço e 4 modelos de implantação. Base acadêmica para qualquer estudo do tema. |
 | 2 | **AWS - What is Cloud Computing?** | Texto (site) | [aws.amazon.com/what-is-cloud-computing/](https://aws.amazon.com/what-is-cloud-computing/) | Introdução acessível aos conceitos e benefícios da nuvem (agilidade, elasticidade, custos) na visão de um provedor líder. Complementa a teoria com a prática. |
 | 3 | **AWS Well-Architected Framework** | Texto (site) | [docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) | Documento oficial sobre os pilares (Excelência Operacional, Segurança, Confiabilidade, Eficiência de Performance, Otimização de Custos e Sustentabilidade). Essencial para o objetivo de arquitetura. |
-| 4 | **AWS - Overview of Amazon Web Services (Whitepaper)** | Texto (site) | [docs.aws.amazon.com/whitepapers/latest/aws-overview/aws-overview.html](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/aws-overview.html) | Visão geral dos serviços AWS organizados por categoria (compute, storage, banco de dados, rede, segurança etc.). Ajuda a mapear a oferta de serviços na prática. |
+| 4 | **AWS - Overview of Amazon Web Services (Whitepaper)** | Texto (site) | [docs.aws.amazon.com/whitepapers/latest/aws-overview/aws-overview.html](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/aws-overview.html) | Visão geral dos serviços AWS organizados por categoria (computer, storage, banco de dados, rede, segurança etc.). Ajuda a mapear a oferta de serviços na prática. |
 | 5 | **AWS - Shared Responsibility Model** | Texto (site) | [aws.amazon.com/compliance/shared-responsibility-model/](https://aws.amazon.com/compliance/shared-responsibility-model/) | Documento oficial sobre a divisão de responsabilidades entre cliente e AWS. Fundamental para entender segurança na nuvem. |
 
 ### 2.2 Como as fontes foram usadas no NotebookLM
@@ -222,7 +222,7 @@ O framework ajuda a avaliar arquiteturas contra boas práticas e medir pontos de
 
 | Categoria | Serviços principais |
 | --- | --- |
-| Compute | Amazon EC2, AWS Lambda, Elastic Beanstalk, Auto Scaling |
+| Computer | Amazon EC2, AWS Lambda, Elastic Beanstalk, Auto Scaling |
 | Armazenamento | Amazon S3 (objetos), Amazon EBS (blocos), Amazon EFS (arquivos) |
 | Banco de dados | Amazon RDS, Amazon DynamoDB (NoSQL), Amazon Aurora |
 | Rede e CDN | Amazon VPC, CloudFront, Elastic Load Balancing, Route 53 |
@@ -252,7 +252,7 @@ O framework ajuda a avaliar arquiteturas contra boas práticas e medir pontos de
 | **VPC** | Rede virtual isolada dentro da nuvem AWS onde se provisionam recursos |
 | **Amazon S3** | Serviço de armazenamento de objetos escalável e durável |
 | **Amazon EC2** | Serviço de servidores virtuais (instâncias) sob demanda |
-| **AWS Lambda** | Compute serverless: executa código sem gerenciar servidores |
+| **AWS Lambda** | Computer serverless: executa código sem gerenciar servidores |
 | **Serverless** | Modelo em que o provedor gerencia a infraestrutura e o usuário paga pela execução |
 | **Auto Scaling** | Ajuste automático da capacidade de recursos conforme a demanda |
 | **CloudWatch** | Serviço de monitoramento de métricas, logs e alarmes |
